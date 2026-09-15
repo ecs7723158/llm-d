@@ -1,6 +1,7 @@
 # 🔬 Research & Engineering Notes: llm-d
 
-- **Date**: 2026-09-14 21:11:40
+- **Date**: 2026-09-15 23:49:46
+- **Branch**: `research/notes`
 - **Upstream Repository**: [llm-d/llm-d](https://github.com/llm-d/llm-d)
 - **Stargazers**: ★ 4530
 - **Summary**: Distributed LLM inference on modern accelerators with Kubernetes
@@ -14,4 +15,4 @@
 底層對於 inter-node communication latency 與 pipeline parallelism 的控制非常精準，解決了大規模 inference 常見的 tail latency 問題。
 
 ## 🚀 Action Items & Next Steps
-先 fork 過來跑 profile 看看 resource overhead，預計下週對齊論文中的資源調度與負載均衡實驗。
+持續在 research/notes 分支推進，跑 profile 檢測 resource overhead，預計下週對齊論文中的資源調度與負載均衡實驗。
